@@ -23,7 +23,7 @@
 **blacklist.lua**
 
 
-
+```
 local HOSTNAME = ''
 
 function __init__(argtb)
@@ -58,3 +58,4 @@ function do_remap()
         end
         ts.hook(TS_LUA_HOOK_SEND_RESPONSE_HDR, send_response)
 end
+```
